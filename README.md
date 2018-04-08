@@ -2,6 +2,7 @@
 
 Personal blog theme powered by [Hugo](https://gohugo.io).
 A live demo is available [here](https://themes.gohugo.io/theme/minimal/).
+This repository is only changed js & css file to China available CDN.
 
 ## Installation
 
@@ -10,7 +11,7 @@ You can install the theme either as a clone or submodule.
 I recommend the latter. From the root of your Hugo site, type the following:
 
 ```
-$ git submodule add https://github.com/calintat/minimal.git themes/minimal
+$ git submodule add https://github.com/gsgtzq/minimal.git themes/minimal
 $ git submodule init
 $ git submodule update
 ```
