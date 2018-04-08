@@ -98,3 +98,24 @@ footer {
 img {
     max-width: 100%;
 }
+
+/*markdown table styles*/
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 26px;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #eeeeee;
+}
+
+th {
+    text-align: center !important;
+}
+
+th, td {
+    margin-bottom: 26px;
+    border: 1px solid #ddd;
+}
