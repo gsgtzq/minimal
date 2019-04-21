@@ -19,7 +19,7 @@
 {{ range .Site.Params.css }} <link rel="stylesheet" href="{{ . | absURL }}"> {{ end }}
 
 <!-- google fonts -->
-<link rel="stylesheet" href="http://fonts.font.im/css?family={{ .Site.Params.font }}" type="text/css">
+<link rel="stylesheet" href="https://fonts.proxy.ustclug.org/css?family={{ .Site.Params.font }}" type="text/css">
 
 <!-- highlight.js -->
 {{ if .Site.Params.highlight | default false }} <link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/{{ .Site.Params.highlightStyle | default "default" }}.min.css"> {{ end }}
